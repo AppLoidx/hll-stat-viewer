@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hll-stat-viewer/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/hll-stat-viewer/static/js/main.0797a28e.chunk.js",
+    "main.js.map": "/hll-stat-viewer/static/js/main.0797a28e.chunk.js.map",
+    "runtime-main.js": "/hll-stat-viewer/static/js/runtime-main.97c45c51.js",
+    "runtime-main.js.map": "/hll-stat-viewer/static/js/runtime-main.97c45c51.js.map",
+    "static/css/2.a95be28f.chunk.css": "/hll-stat-viewer/static/css/2.a95be28f.chunk.css",
+    "static/js/2.38dc271a.chunk.js": "/hll-stat-viewer/static/js/2.38dc271a.chunk.js",
+    "static/js/2.38dc271a.chunk.js.map": "/hll-stat-viewer/static/js/2.38dc271a.chunk.js.map",
+    "static/js/3.5dabdd97.chunk.js": "/hll-stat-viewer/static/js/3.5dabdd97.chunk.js",
+    "static/js/3.5dabdd97.chunk.js.map": "/hll-stat-viewer/static/js/3.5dabdd97.chunk.js.map",
+    "index.html": "/hll-stat-viewer/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/hll-stat-viewer/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.ea1455b2.chunk.css.map": "/hll-stat-viewer/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.38dc271a.chunk.js.LICENSE.txt": "/hll-stat-viewer/static/js/2.38dc271a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97c45c51.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.38dc271a.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.0797a28e.chunk.js"
+  ]
+}
