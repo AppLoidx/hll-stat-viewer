@@ -6,6 +6,7 @@ const KillTable = ({header, data}) => {
         dataSource={data}
         style={{width: "800px"}}
         header={header}
+        size={"small"}
         renderItem={item => (
             <List.Item>
                 <div style={{justifyContent: "space-between", display: "flex", width: "80%"}}>

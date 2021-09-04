@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {Space} from "antd";
+import {Divider, Space} from "antd";
 import StatsTable from "./StatsTable";
 import KillTable from "./KillTable";
 
@@ -16,10 +16,12 @@ const Tracker = ({player, serverStats}) => {
 
 const PlayerStats = ({playerStats}) => {
     return <Space direction="vertical"  style={{width: "100%"}}>
+        <a href={playerStats.steaminfo.profile.profileurl}>Steam URL</a>
         <StatsTable dataSource={[playerStats]} />
         <div style={{display: 'flex', justifyContent: "space-between", margin: "10px"}}>
-            <KillTable header={"Убил"} data={Object.entries(playerStats.most_killed)}/>
-            <KillTable header={"Убит от"} data={Object.entries(playerStats.death_by)}/>
+            <KillTable header={<div style={{fontWeight: "bolder"}}>Убил</div>} data={Object.entries(playerStats.most_killed)}/>
+            <Divider type="vertical" style={{height: "100%"}}/>
+            <KillTable header={<div style={{fontWeight: "bolder"}}>Убит от</div>} data={Object.entries(playerStats.death_by)}/>
         </div>
     </Space>
 
