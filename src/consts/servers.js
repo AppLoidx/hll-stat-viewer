@@ -19,4 +19,9 @@ export const servers = [
         serverName: "WAR",
         api: "http://161.97.144.22:7010/api/"
     },
+    {
+        id: 4,
+        serverName: "Pz-L ❤️",
+        api: "http://localhost:7010/api/"
+    },
 ]
