@@ -5,7 +5,7 @@ const ServerTable = ({serversInfo}) => {
     const columns = [
         {
             title: "Сервер",
-            dataIndex: "short_name",
+            dataIndex: "name",
             key: "server"
         },
         {
